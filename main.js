@@ -1,4 +1,3 @@
-document.querySelector(".name").onblur = function () {
-  console.log(this.value);
-  window.sessionStorage.setItem("name", this.value);
-};
+let myfrind = ["ahmed", "sayad", "ali", ["shady", "omar", ["mohmed", "gamal"]]];
+let [, , , [a, , [, b]]] = myfrind;
+console.log(a, b); // Output: shhad and mohmode
